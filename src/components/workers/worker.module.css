@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    text-align: center;
+    justify-self: center;
+    justify-content: center;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+.cool {
+    /* text-align: center; */
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.buttons {
+    /* position: fixed; */
+    justify-self: center;
+}
+
+.test {
+    justify-self: center;
+}
+
+.testCheck {
+    /* width: 61px;
+    height: 42px; */
+    align-self: center;
+    justify-self: center;
+}

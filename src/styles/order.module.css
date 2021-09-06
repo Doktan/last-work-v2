@@ -1,0 +1,48 @@
+.container {
+     display: grid;
+     justify-content: center; 
+     justify-self: center;
+     text-align: center; 
+     margin-top: 25px;
+}
+
+.forForm {
+    display: grid;
+    /* background-color: chocolate; */
+    grid-template-areas: 
+    "title"
+    "text"
+    "input"
+    "send"
+    ;
+    
+    text-align: center;
+    width: fit-content;
+}
+
+#input {
+    
+}
+
+.priceArea {
+    grid-column-start: 1;
+    resize: none;
+    height: 2.5cm;
+    width: 5cm;
+}
+
+.tableArea {
+    resize: none;
+}
+
+.redactContainer {
+    display: grid;
+}
+
+.redact {
+    text-align: center;
+}
+
+.button {
+    width:fit-content
+}

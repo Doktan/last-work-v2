@@ -1,0 +1,43 @@
+.nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(60px,1fr));
+  grid-column-gap: 60px;
+  background-color: rgb(64, 137, 231);
+  column-width: minmax(30px,100px);
+}
+
+.child{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: cornsilk;
+  color: black;
+  justify-self: center;
+  text-decoration: none;
+  text-emphasis: none;
+  transition: 1s;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.child a :visited{
+  color:black
+}
+
+.child a :active{
+  color: black;
+}
+
+.child:hover {
+  background-color: black;
+  color: cornsilk;
+  transition: 1s;
+}
+
+.footer {
+  background-color: rgb(64, 137, 231);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

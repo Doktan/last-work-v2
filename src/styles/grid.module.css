@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.child {
+    align-self: center;
+    justify-self: center;
+    background-color: crimson;
+}
+
+.test{
+    background: blue;
+}
